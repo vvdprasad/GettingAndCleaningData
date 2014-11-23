@@ -1,0 +1,146 @@
+Features Selection
+==================
+
+Please refer to the features_info.txt and features.txt from the downloaded dataset. From the training and test sets, the following variables are selected for this analysis:
+
+1	tBodyAcc-mean()-X
+2	tBodyAcc-mean()-Y
+3	tBodyAcc-mean()-Z
+4	tBodyAcc-std()-X
+5	tBodyAcc-std()-Y
+6	tBodyAcc-std()-Z
+7	tGravityAcc-mean()-X
+8	tGravityAcc-mean()-Y
+9	tGravityAcc-mean()-Z
+10	tGravityAcc-std()-X
+11	tGravityAcc-std()-Y
+12	tGravityAcc-std()-Z
+13	tBodyAccJerk-mean()-X
+14	tBodyAccJerk-mean()-Y
+15	tBodyAccJerk-mean()-Z
+16	tBodyAccJerk-std()-X
+17	tBodyAccJerk-std()-Y
+18	tBodyAccJerk-std()-Z
+19	tBodyGyro-mean()-X
+20	tBodyGyro-mean()-Y
+21	tBodyGyro-mean()-Z
+22	tBodyGyro-std()-X
+23	tBodyGyro-std()-Y
+24	tBodyGyro-std()-Z
+25	tBodyGyroJerk-mean()-X
+26	tBodyGyroJerk-mean()-Y
+27	tBodyGyroJerk-mean()-Z
+28	tBodyGyroJerk-std()-X
+29	tBodyGyroJerk-std()-Y
+30	tBodyGyroJerk-std()-Z
+31	tBodyAccMag-mean()
+32	tBodyAccMag-std()
+33	tGravityAccMag-mean()
+34	tGravityAccMag-std()
+35	tBodyAccJerkMag-mean()
+36	tBodyAccJerkMag-std()
+37	tBodyGyroMag-mean()
+38	tBodyGyroMag-std()
+39	tBodyGyroJerkMag-mean()
+40	tBodyGyroJerkMag-std()
+41	fBodyAcc-mean()-X
+42	fBodyAcc-mean()-Y
+43	fBodyAcc-mean()-Z
+44	fBodyAcc-std()-X
+45	fBodyAcc-std()-Y
+46	fBodyAcc-std()-Z
+47	fBodyAccJerk-mean()-X
+48	fBodyAccJerk-mean()-Y
+49	fBodyAccJerk-mean()-Z
+50	fBodyAccJerk-std()-X
+51	fBodyAccJerk-std()-Y
+52	fBodyAccJerk-std()-Z
+53	fBodyGyro-mean()-X
+54	fBodyGyro-mean()-Y
+55	fBodyGyro-mean()-Z
+56	fBodyGyro-std()-X
+57	fBodyGyro-std()-Y
+58	fBodyGyro-std()-Z
+59	fBodyAccMag-mean()
+60	fBodyAccMag-std()
+61	fBodyBodyAccJerkMag-mean()
+62	fBodyBodyAccJerkMag-std()
+63	fBodyBodyGyroMag-mean()
+64	fBodyBodyGyroMag-std()
+65	fBodyBodyGyroJerkMag-mean()
+66	fBodyBodyGyroJerkMag-std()
+67  subject
+68 	activity label
+69  activity names
+	
+	
+Average of each of the mean and standard deviation variables per activity and per subject are computed and the result dataset contains the following fields:
+
+1	activity	 - activity name
+2	subject	 - the subject who performed the activity. Ranges from 1 to 30 
+3	meanOf_tBodyAcc_mean_X	 - average of the 'tBodyAcc-mean()-X' measurements per activity and per subject
+4	meanOf_tBodyAcc_mean_Y	 - average of the 'tBodyAcc-mean()-Y' measurements per activity and per subject
+5	meanOf_tBodyAcc_mean_Z	 - average of the 'tBodyAcc-mean()-Z' measurements per activity and per subject
+6	meanOf_tBodyAcc_std_X	 - average of the 'tBodyAcc-std()-X' measurements per activity and per subject
+7	meanOf_tBodyAcc_std_Y	 - average of the 'tBodyAcc-std()-Y' measurements per activity and per subject
+8	meanOf_tBodyAcc_std_Z	 - average of the 'tBodyAcc-std()-Z' measurements per activity and per subject
+9	meanOf_tGravityAcc_mean_X	 - average of the 'tGravityAcc-mean()-X' measurements per activity and per subject
+10	meanOf_tGravityAcc_mean_Y	 - average of the 'tGravityAcc-mean()-Y' measurements per activity and per subject
+11	meanOf_tGravityAcc_mean_Z	 - average of the 'tGravityAcc-mean()-Z' measurements per activity and per subject
+12	meanOf_tGravityAcc_std_X	 - average of the 'tGravityAcc-std()-X' measurements per activity and per subject
+13	meanOf_tGravityAcc_std_Y	 - average of the 'tGravityAcc-std()-Y' measurements per activity and per subject
+14	meanOf_tGravityAcc_std_Z	 - average of the 'tGravityAcc-std()-Z' measurements per activity and per subject
+15	meanOf_tBodyAccJerk_mean_X	 - average of the 'tBodyAccJerk-mean()-X' measurements per activity and per subject
+16	meanOf_tBodyAccJerk_mean_Y	 - average of the 'tBodyAccJerk-mean()-Y' measurements per activity and per subject
+17	meanOf_tBodyAccJerk_mean_Z	 - average of the 'tBodyAccJerk-mean()-Z' measurements per activity and per subject
+18	meanOf_tBodyAccJerk_std_X	 - average of the 'tBodyAccJerk-std()-X' measurements per activity and per subject
+19	meanOf_tBodyAccJerk_std_Y	 - average of the 'tBodyAccJerk-std()-Y' measurements per activity and per subject
+20	meanOf_tBodyAccJerk_std_Z	 - average of the 'tBodyAccJerk-std()-Z' measurements per activity and per subject
+21	meanOf_tBodyGyro_mean_X	 - average of the 'tBodyGyro-mean()-X' measurements per activity and per subject
+22	meanOf_tBodyGyro_mean_Y	 - average of the 'tBodyGyro-mean()-Y' measurements per activity and per subject
+23	meanOf_tBodyGyro_mean_Z	 - average of the 'tBodyGyro-mean()-Z' measurements per activity and per subject
+24	meanOf_tBodyGyro_std_X	 - average of the 'tBodyGyro-std()-X' measurements per activity and per subject
+25	meanOf_tBodyGyro_std_Y	 - average of the 'tBodyGyro-std()-Y' measurements per activity and per subject
+26	meanOf_tBodyGyro_std_Z	 - average of the 'tBodyGyro-std()-Z' measurements per activity and per subject
+27	meanOf_tBodyGyroJerk_mean_X	 - average of the 'tBodyGyroJerk-mean()-X' measurements per activity and per subject
+28	meanOf_tBodyGyroJerk_mean_Y	 - average of the 'tBodyGyroJerk-mean()-Y' measurements per activity and per subject
+29	meanOf_tBodyGyroJerk_mean_Z	 - average of the 'tBodyGyroJerk-mean()-Z' measurements per activity and per subject
+30	meanOf_tBodyGyroJerk_std_X	 - average of the 'tBodyGyroJerk-std()-X' measurements per activity and per subject
+31	meanOf_tBodyGyroJerk_std_Y	 - average of the 'tBodyGyroJerk-std()-Y' measurements per activity and per subject
+32	meanOf_tBodyGyroJerk_std_Z	 - average of the 'tBodyGyroJerk-std()-Z' measurements per activity and per subject
+33	meanOf_tBodyAccMag_mean	 - average of the 'tBodyAccMag-mean()' measurements per activity and per subject
+34	meanOf_tBodyAccMag_std	 - average of the 'tBodyAccMag-std()' measurements per activity and per subject
+35	meanOf_tGravityAccMag_mean	 - average of the 'tGravityAccMag-mean()' measurements per activity and per subject
+36	meanOf_tGravityAccMag_std	 - average of the 'tGravityAccMag-std()' measurements per activity and per subject
+37	meanOf_tBodyAccJerkMag_mean	 - average of the 'tBodyAccJerkMag-mean()' measurements per activity and per subject
+38	meanOf_tBodyAccJerkMag_std	 - average of the 'tBodyAccJerkMag-std()' measurements per activity and per subject
+39	meanOf_tBodyGyroMag_mean	 - average of the 'tBodyGyroMag-mean()' measurements per activity and per subject
+40	meanOf_tBodyGyroMag_std	 - average of the 'tBodyGyroMag-std()' measurements per activity and per subject
+41	meanOf_tBodyGyroJerkMag_mean	 - average of the 'tBodyGyroJerkMag-mean()' measurements per activity and per subject
+42	meanOf_tBodyGyroJerkMag_std	 - average of the 'tBodyGyroJerkMag-std()' measurements per activity and per subject
+43	meanOf_fBodyAcc_mean_X	 - average of the 'fBodyAcc-mean()-X' measurements per activity and per subject
+44	meanOf_fBodyAcc_mean_Y	 - average of the 'fBodyAcc-mean()-Y' measurements per activity and per subject
+45	meanOf_fBodyAcc_mean_Z	 - average of the 'fBodyAcc-mean()-Z' measurements per activity and per subject
+46	meanOf_fBodyAcc_std_X	 - average of the 'fBodyAcc-std()-X' measurements per activity and per subject
+47	meanOf_fBodyAcc_std_Y	 - average of the 'fBodyAcc-std()-Y' measurements per activity and per subject
+48	meanOf_fBodyAcc_std_Z	 - average of the 'fBodyAcc-std()-Z' measurements per activity and per subject
+49	meanOf_fBodyAccJerk_mean_X	 - average of the 'fBodyAccJerk-mean()-X' measurements per activity and per subject
+50	meanOf_fBodyAccJerk_mean_Y	 - average of the 'fBodyAccJerk-mean()-Y' measurements per activity and per subject
+51	meanOf_fBodyAccJerk_mean_Z	 - average of the 'fBodyAccJerk-mean()-Z' measurements per activity and per subject
+52	meanOf_fBodyAccJerk_std_X	 - average of the 'fBodyAccJerk-std()-X' measurements per activity and per subject
+53	meanOf_fBodyAccJerk_std_Y	 - average of the 'fBodyAccJerk-std()-Y' measurements per activity and per subject
+54	meanOf_fBodyAccJerk_std_Z	 - average of the 'fBodyAccJerk-std()-Z' measurements per activity and per subject
+55	meanOf_fBodyGyro_mean_X	 - average of the 'fBodyGyro-mean()-X' measurements per activity and per subject
+56	meanOf_fBodyGyro_mean_Y	 - average of the 'fBodyGyro-mean()-Y' measurements per activity and per subject
+57	meanOf_fBodyGyro_mean_Z	 - average of the 'fBodyGyro-mean()-Z' measurements per activity and per subject
+58	meanOf_fBodyGyro_std_X	 - average of the 'fBodyGyro-std()-X' measurements per activity and per subject
+59	meanOf_fBodyGyro_std_Y	 - average of the 'fBodyGyro-std()-Y' measurements per activity and per subject
+60	meanOf_fBodyGyro_std_Z	 - average of the 'fBodyGyro-std()-Z' measurements per activity and per subject
+61	meanOf_fBodyAccMag_mean	 - average of the 'fBodyAccMag-mean()' measurements per activity and per subject
+62	meanOf_fBodyAccMag_std	 - average of the 'fBodyAccMag-std()' measurements per activity and per subject
+63	meanOf_fBodyBodyAccJerkMag_mean	 - average of the 'fBodyBodyAccJerkMag-mean()' measurements per activity and per subject
+64	meanOf_fBodyBodyAccJerkMag_std	 - average of the 'fBodyBodyAccJerkMag-std()' measurements per activity and per subject
+65	meanOf_fBodyBodyGyroMag_mean	 - average of the 'fBodyBodyGyroMag-mean()' measurements per activity and per subject
+66	meanOf_fBodyBodyGyroMag_std	 - average of the 'fBodyBodyGyroMag-std()' measurements per activity and per subject
+66	meanOf_fBodyBodyGyroJerkMag_mean	 - average of the 'fBodyBodyGyroJerkMag-mean()' measurements per activity and per subject
+66	meanOf_fBodyBodyGyroJerkMag_std	 - average of the 'fBodyBodyGyroJerkMag-std()' measurements per activity and per subject
